@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #37557d;
+}
+@media screen and (min-width: 1200px){
+    
+/* Cabeçalho */
+header{
+    background-color: rgba(39, 38, 38, 0.836);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+}
+
+#menu{
+    font-size: 20px;
+    margin: 30px;
+    padding: 12px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+#menu a:hover {
+    font-size: 20px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.425);
+    padding: 10px 0px;
+}
+
+
+#titulo{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    text-decoration: none;
+    text-shadow: 5px 2px 2px rgb(0, 0, 0);
+}
+
+.item-menu {
+    color: rgba(255, 255, 255, 0.658);
+    margin: 10px;
+    text-decoration: none;
+}
+
+.item-menu:hover {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-decoration: none;
+}
+
+.item-menusel {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.425);
+    padding: 10px 0px;
+}
+
+/* geral */
+aside{
+    background-color: rgba(39, 38, 38, 0.836);
+    color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px 40px;
+    width: 430px;
+    height: 2000px;
+    line-height: 40px;
+}
+
+ul{
+    list-style-image: url("seta1.png");
+    line-height: 50px;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside li{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    margin-left: -30px;
+    margin-right: -30px; 
+    line-height: 50px;
+    padding: 3px;
+}
+
+aside .tituloh2{
+    text-align: center;
+    border-bottom: 3px outset rgba(255, 255, 255, 0.507);
+    margin-bottom: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.relacionados a {
+    text-decoration: none;
+    color: rgb(0, 248, 124);
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 1px;
+}
+
+
+.relacionados li:hover {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+.tituloh1{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: black;
+    margin: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 2px 2px rgb(0, 0, 0);
+}
+
+.tituloh2{
+    color: white;
+    margin: 10px 10px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+}
+
+main{
+    padding: 2px 20px;
+    margin: 20px;
+    display: flex;
+    margin: 1rem 1rem;
+    gap: 4rem;
+    justify-content: center;
+}
+
+#principais_topicos{
+    background-color: rgba(39, 38, 38, 0.836);
+    border: 2px solid black;
+    width: 2000px;
+}
+
+.topicosel{
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+/* Pagina principal */
+.topico{
+    position: relative;
+    background-color: rgba(240, 248, 255, 0.384);
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2% 5%;
+    height: 30%;
+    width: 80%;
+    left: 5%;
+    border-radius: 2%;
+}
+
+.topico p {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    padding: 1% 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.76);
+    margin: 0px 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.imagem {
+    border: 3px solid black;
+    margin: 2% 10%;
+}
+
+.tituloh3{
+    margin: 0% 0.7%;
+    padding: 0.7% 1.4%;
+    color: rgb(0, 248, 124);
+    font-size: 200%;
+    height: 6%;
+    width: 57.4%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 19.5%;
+    top: 84%;
+    background-color: rgb(0, 0, 0);
+    line-height: 125%;
+    z-index: 1;
+}
+
+.selecao{
+    position: absolute;
+    position: absolute;
+    z-index: 0;
+    width: 70.5%;
+    height: 75.3%;
+    left: 14.7%;
+    bottom: 10.3%;
+}
+
+.selecao:hover{
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+/* materia */
+#materias{
+    background-color: rgba(39, 38, 38, 0.836);
+    border: 2px solid black;
+    width: 2000px;
+    height: 1000px;
+}
+
+.lista_materias{
+    color: white;
+    text-align: left;
+    line-height: 40px;
+    margin: 10px 60px;
+}
+
+.lista_materias a:hover{ 
+    text-decoration: none;
+    color: rgb(0, 248, 124);
+    font-weight: bold;
+}
+
+#linguagens{
+    padding: 20px 0px;
+}
+
+/* Aplicações para internet */
+.principais_materiais{
+    text-decoration: none;
+    text-align: left;
+    line-height: 40px;
+    margin: 20px 40px;
+}
+
+.principais_materiais a {
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    line-height: 40px;
+    margin: 30px 50px;
+}
+
+.principais_materiais a:hover {
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    line-height: 40px;
+    margin: 30px 50px;
+    text-decoration: underline;
+}
+
+.item {
+    color: rgb(0, 248, 124);
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* area login */
+.area_login{
+    background-color: rgba(39, 38, 38, 0.836);
+    border: solid 2px black;
+    color: rgb(255, 255, 255);
+    height: 220px;
+    width: 350px;
+    font-size: 14px;
+    padding: 2px 20px;
+    margin: 20px;
+    margin: 1rem 1rem;
+    gap: 5rem;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+}
+
+.caixa_texto{
+    font-size: 16px;
+    height: 20px;
+    width: 200px;
+}
+
+#botao {
+    font-size: 18px;
+    padding: 3px;
+
+}
+
+/* rodapé */
+footer{
+    background-color: rgba(39, 38, 38, 0.836);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 20px 20px;
+}
+
+}
+
+@media screen and (min-width: 768px){
+
+
+}
